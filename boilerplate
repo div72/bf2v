@@ -1,0 +1,8 @@
+%rlimport readline
+
+fn main() {
+	mut ptr := byte(0)
+	mut cells := [byte(0)].repeat(256)
+	%rlmut rl := readline.Readline{}
+	%code
+}
